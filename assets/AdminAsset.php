@@ -5,10 +5,15 @@ class AdminAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@easyii/media';
     public $css = [
+        'css/imgareaselect-default.css',
         'css/admin.css',
+        'css/skin-purple.css'
     ];
     public $js = [
-        'js/admin.js'
+        'js/jquery.imgareaselect.pack.js',
+        'js/crop.js',
+        'js/admin.js',
+        'js/app.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
@@ -18,4 +23,7 @@ class AdminAsset extends \yii\web\AssetBundle
     public $jsOptions = array(
         'position' => \yii\web\View::POS_HEAD
     );
+    public $publishOptions = [
+        'forceCopy' => false,
+    ];
 }

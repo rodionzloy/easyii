@@ -1,5 +1,5 @@
 {
-    "name": "noumo/easyii",
+    "name": "rodionzloy/easyii",
     "version": "dev-master",
     "description": "Easy CMS based on Yii2 Framework - Development package",
     "keywords": ["easyii"],
@@ -9,8 +9,8 @@
     "minimum-stability": "dev",
     "support": {
         "wiki": "http://easyiicms.com/docs",
-        "source": "https://github.com/noumo/easyii.git",
-        "issues": "https://github.com/noumo/easyii/issues"
+        "source": "https://github.com/rodionzloy/easyii.git",
+        "issues": "https://github.com/rodionzloy/easyii/issues"
     },
     "authors": [
         {
@@ -21,14 +21,17 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "creocoder/yii2-nested-sets": "0.9.*",
-        "bower-asset/fancybox": "*",
-        "bower-asset/jquery.switcher": "*",
-        "bower-asset/eonasdan-bootstrap-datetimepicker": "^4.7@dev",
-        "2amigos/yii2-selectize-widget": "~1.0"
+        "bower/fancybox": "*",
+        "bower/jquery.switcher": "*",
+        "bower/eonasdan-bootstrap-datetimepicker": "4.7.14",
+        "2amigos/yii2-selectize-widget": "~1.0",
+        "vova07/yii2-imperavi-widget": "*",
+        "stojg/crop": "*",
+        "google/apiclient": "1.0.*@beta"
     },
     "autoload": {
         "psr-4": {
