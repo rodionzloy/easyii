@@ -3,13 +3,13 @@ namespace yii\easyii\assets;
 
 class FancyboxAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/fancybox/source';
+    public $sourcePath = '@bower/fancybox/dist';
 
     public $css = [
-        'jquery.fancybox.css',
+        'jquery.fancybox.min.css',
     ];
     public $js = [
-        'jquery.fancybox.pack.js'
+        'jquery.fancybox.min.js'
     ];
 
     public $depends = ['yii\web\JqueryAsset'];
